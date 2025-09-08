@@ -20,6 +20,9 @@ public class Group {
         balances.put(user, new HashMap<>());
     }
 
+    public Map<User, Map<User, Double>> getBalances() {
+        return this.balances;
+    }
     public void addExpense(Expense expense) {
         if (expense.validate()) {
             expenses.add(expense);
