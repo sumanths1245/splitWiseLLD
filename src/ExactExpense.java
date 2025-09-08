@@ -14,7 +14,7 @@ public class ExactExpense extends Expense{
                 return false;
             }
             ExactSplit exactSplit = (ExactSplit) split;
-            curAmt += exactSplit.getAmt();
+            curAmt += exactSplit.getAmount();
         }
         if (curAmt != amount) {
             return false;

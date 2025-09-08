@@ -3,7 +3,4 @@ public class ExactSplit extends Split{
         super(user);
         setAmount(amt);
     }
-    public double getAmt() {
-        return this.getAmount();
-    }
 }
